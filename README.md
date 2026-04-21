@@ -1,2 +1,3 @@
-# axialert
-AI Assisted Monitoring System for Dementia Patients
+# Axialert
+
+Name Origin: The name "AxiAlert" combines two components: "Axi" and "Alert." "Axi" is derived from the word "axiom," which refers to a statement or proposition that is regarded as being self-evidently true. In the context of the business, it suggests a foundational truth or principle underlying the monitoring system, emphasizing reliability and trustworthiness in the care of dementia patients. "Alert" signifies the system's primary function of monitoring and notifying caregivers about any anomalies in the behavior of dementia patients. It conveys a sense of vigilance and responsiveness, crucial for ensuring patient safety and well-being. Together, "Axi Alert" implies a dependable monitoring solution that is grounded in fundamental truths about patient care, while actively keeping caregivers informed.
