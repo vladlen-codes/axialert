@@ -438,6 +438,11 @@ void loop() {
         setupStatusServer();
         serverStarted = true;
     }
+    if (serverStarted && WiFi.status() != WL_CONNECTED) {
+        Serial.println("[WiFi] Disconnected — reconnecting...");
+        serverStarted = false;
+        WiFi.begin(WIFI_SSID, WIFI_PASS);
+    }
 
     bool pirNow=digitalRead(PIR_PIN);
     if( pirNow&&!w_pirPrev){ w_pirCount++; w_pirLastTrigger=now; w_pirOnStart=now; }
