@@ -1,0 +1,44 @@
+{
+  "trained_at": "2026-04-24T09:50:46.501105+00:00",
+  "n_vectors": 8172,
+  "date_range": [
+    "2024-01-01T00:05:00",
+    "2026-04-24T09:47:03.124533+00:00"
+  ],
+  "motion_features": [
+    "pir_count",
+    "pir_ratio",
+    "no_motion_s",
+    "hour_sin",
+    "hour_cos"
+  ],
+  "adl_features": [
+    "cur_mean",
+    "cur_std",
+    "app_on",
+    "app_on_s",
+    "app_switches",
+    "hour_sin",
+    "hour_cos"
+  ],
+  "vitals_features": [
+    "hr_mean",
+    "hr_std",
+    "spo2_mean",
+    "spo2_std"
+  ],
+  "vitals_model_type": "autoencoder",
+  "thresholds": {
+    "motion_warn": 0.5487347954792237,
+    "motion_crit": 0.5525825765324155,
+    "adl_warn": 0.5371563558331381,
+    "adl_crit": 0.5375136860750194,
+    "vitals_warn": 0.7686015963554382,
+    "vitals_crit": 1.4041492938995361
+  },
+  "fusion_weights": {
+    "w_motion": 0.3,
+    "w_adl": 0.35,
+    "w_vitals": 0.35
+  }
+}

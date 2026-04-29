@@ -1,0 +1,58 @@
+{
+  "patient": {
+    "id": "PAT-2024-001",
+    "name": "Margaret Thompson",
+    "age": 78,
+    "ward": "Memory Care Unit B",
+    "condition": "Moderate Dementia",
+    "caregiver": "Dr. Anil Sharma",
+    "emergency_contact": "+91-98765-43210",
+    "baseline_hr": 72,
+    "baseline_spo2": 97.5,
+    "risk_level": "HIGH"
+  },
+  "session": {
+    "started_at": "2024-01-15T06:00:00Z",
+    "device_id": "ESP32-AXI-007",
+    "firmware": "v2.1.4",
+    "location": "Room 14B"
+  },
+  "readings": [
+    { "ts": "2024-01-15T06:00:00Z", "hour": 6, "pir_ratio": 0.0, "no_motion_s": 300, "app_on": 0, "app_on_s": 0, "hr_mean": 55.2, "hr_std": 1.8, "spo2_mean": 96.8, "spo2_std": 0.3, "tachy": 0, "brady": 0, "spo2_low": 0, "vitals_valid": 1, "a_global": 0.12, "anomaly_label": "NORMAL" },
+    { "ts": "2024-01-15T06:05:00Z", "hour": 6, "pir_ratio": 0.0, "no_motion_s": 300, "app_on": 0, "app_on_s": 0, "hr_mean": 54.9, "hr_std": 2.1, "spo2_mean": 97.0, "spo2_std": 0.2, "tachy": 0, "brady": 0, "spo2_low": 0, "vitals_valid": 1, "a_global": 0.10, "anomaly_label": "NORMAL" },
+    { "ts": "2024-01-15T06:10:00Z", "hour": 6, "pir_ratio": 0.0, "no_motion_s": 300, "app_on": 0, "app_on_s": 0, "hr_mean": 56.1, "hr_std": 1.5, "spo2_mean": 96.5, "spo2_std": 0.4, "tachy": 0, "brady": 0, "spo2_low": 0, "vitals_valid": 1, "a_global": 0.14, "anomaly_label": "NORMAL" },
+    { "ts": "2024-01-15T06:30:00Z", "hour": 6, "pir_ratio": 0.05, "no_motion_s": 240, "app_on": 0, "app_on_s": 0, "hr_mean": 58.3, "hr_std": 2.0, "spo2_mean": 97.2, "spo2_std": 0.3, "tachy": 0, "brady": 0, "spo2_low": 0, "vitals_valid": 1, "a_global": 0.15, "anomaly_label": "NORMAL" },
+    { "ts": "2024-01-15T07:00:00Z", "hour": 7, "pir_ratio": 0.22, "no_motion_s": 120, "app_on": 1, "app_on_s": 90, "hr_mean": 68.5, "hr_std": 3.2, "spo2_mean": 97.8, "spo2_std": 0.4, "tachy": 0, "brady": 0, "spo2_low": 0, "vitals_valid": 1, "a_global": 0.18, "anomaly_label": "NORMAL" },
+    { "ts": "2024-01-15T07:30:00Z", "hour": 7, "pir_ratio": 0.38, "no_motion_s": 80, "app_on": 1, "app_on_s": 150, "hr_mean": 72.1, "hr_std": 4.0, "spo2_mean": 98.1, "spo2_std": 0.3, "tachy": 0, "brady": 0, "spo2_low": 0, "vitals_valid": 1, "a_global": 0.20, "anomaly_label": "NORMAL" },
+    { "ts": "2024-01-15T08:00:00Z", "hour": 8, "pir_ratio": 0.45, "no_motion_s": 60, "app_on": 1, "app_on_s": 180, "hr_mean": 74.0, "hr_std": 3.5, "spo2_mean": 98.2, "spo2_std": 0.2, "tachy": 0, "brady": 0, "spo2_low": 0, "vitals_valid": 1, "a_global": 0.22, "anomaly_label": "NORMAL" },
+    { "ts": "2024-01-15T08:30:00Z", "hour": 8, "pir_ratio": 0.50, "no_motion_s": 45, "app_on": 1, "app_on_s": 210, "hr_mean": 75.3, "hr_std": 4.1, "spo2_mean": 98.0, "spo2_std": 0.3, "tachy": 0, "brady": 0, "spo2_low": 0, "vitals_valid": 1, "a_global": 0.25, "anomaly_label": "NORMAL" },
+    { "ts": "2024-01-15T09:00:00Z", "hour": 9, "pir_ratio": 0.55, "no_motion_s": 30, "app_on": 1, "app_on_s": 240, "hr_mean": 73.8, "hr_std": 3.8, "spo2_mean": 97.9, "spo2_std": 0.4, "tachy": 0, "brady": 0, "spo2_low": 0, "vitals_valid": 1, "a_global": 0.23, "anomaly_label": "NORMAL" },
+    { "ts": "2024-01-15T09:30:00Z", "hour": 9, "pir_ratio": 0.48, "no_motion_s": 50, "app_on": 1, "app_on_s": 200, "hr_mean": 76.2, "hr_std": 4.5, "spo2_mean": 97.7, "spo2_std": 0.5, "tachy": 0, "brady": 0, "spo2_low": 0, "vitals_valid": 1, "a_global": 0.27, "anomaly_label": "NORMAL" },
+    { "ts": "2024-01-15T10:00:00Z", "hour": 10, "pir_ratio": 0.42, "no_motion_s": 70, "app_on": 0, "app_on_s": 0, "hr_mean": 71.5, "hr_std": 3.0, "spo2_mean": 97.5, "spo2_std": 0.3, "tachy": 0, "brady": 0, "spo2_low": 0, "vitals_valid": 1, "a_global": 0.30, "anomaly_label": "NORMAL" },
+    { "ts": "2024-01-15T10:30:00Z", "hour": 10, "pir_ratio": 0.35, "no_motion_s": 90, "app_on": 0, "app_on_s": 0, "hr_mean": 70.0, "hr_std": 2.8, "spo2_mean": 97.3, "spo2_std": 0.4, "tachy": 0, "brady": 0, "spo2_low": 0, "vitals_valid": 1, "a_global": 0.28, "anomaly_label": "NORMAL" },
+    { "ts": "2024-01-15T11:00:00Z", "hour": 11, "pir_ratio": 0.20, "no_motion_s": 150, "app_on": 0, "app_on_s": 0, "hr_mean": 92.5, "hr_std": 6.2, "spo2_mean": 96.8, "spo2_std": 0.8, "tachy": 0, "brady": 0, "spo2_low": 0, "vitals_valid": 1, "a_global": 0.52, "anomaly_label": "WARNING:PHYSIOLOGICAL" },
+    { "ts": "2024-01-15T11:15:00Z", "hour": 11, "pir_ratio": 0.10, "no_motion_s": 200, "app_on": 0, "app_on_s": 0, "hr_mean": 108.3, "hr_std": 7.5, "spo2_mean": 95.9, "spo2_std": 1.2, "tachy": 0, "brady": 0, "spo2_low": 0, "vitals_valid": 1, "a_global": 0.68, "anomaly_label": "WARNING:PHYSIOLOGICAL" },
+    { "ts": "2024-01-15T11:30:00Z", "hour": 11, "pir_ratio": 0.05, "no_motion_s": 250, "app_on": 0, "app_on_s": 0, "hr_mean": 124.7, "hr_std": 8.1, "spo2_mean": 94.2, "spo2_std": 1.8, "tachy": 1, "brady": 0, "spo2_low": 0, "vitals_valid": 1, "a_global": 0.81, "anomaly_label": "CRITICAL:PHYSIOLOGICAL_EVENT" },
+    { "ts": "2024-01-15T11:45:00Z", "hour": 11, "pir_ratio": 0.02, "no_motion_s": 280, "app_on": 0, "app_on_s": 0, "hr_mean": 131.2, "hr_std": 9.0, "spo2_mean": 92.1, "spo2_std": 2.1, "tachy": 1, "brady": 0, "spo2_low": 0, "vitals_valid": 1, "a_global": 0.88, "anomaly_label": "CRITICAL:PHYSIOLOGICAL_EVENT" },
+    { "ts": "2024-01-15T12:00:00Z", "hour": 12, "pir_ratio": 0.30, "no_motion_s": 100, "app_on": 1, "app_on_s": 120, "hr_mean": 85.0, "hr_std": 5.5, "spo2_mean": 96.0, "spo2_std": 0.9, "tachy": 0, "brady": 0, "spo2_low": 0, "vitals_valid": 1, "a_global": 0.45, "anomaly_label": "WARNING:PHYSIOLOGICAL" },
+    { "ts": "2024-01-15T12:30:00Z", "hour": 12, "pir_ratio": 0.40, "no_motion_s": 70, "app_on": 1, "app_on_s": 180, "hr_mean": 76.0, "hr_std": 4.2, "spo2_mean": 97.2, "spo2_std": 0.5, "tachy": 0, "brady": 0, "spo2_low": 0, "vitals_valid": 1, "a_global": 0.32, "anomaly_label": "NORMAL" },
+    { "ts": "2024-01-15T13:00:00Z", "hour": 13, "pir_ratio": 0.35, "no_motion_s": 85, "app_on": 1, "app_on_s": 160, "hr_mean": 74.5, "hr_std": 3.6, "spo2_mean": 97.5, "spo2_std": 0.4, "tachy": 0, "brady": 0, "spo2_low": 0, "vitals_valid": 1, "a_global": 0.28, "anomaly_label": "NORMAL" },
+    { "ts": "2024-01-15T14:00:00Z", "hour": 14, "pir_ratio": 0.08, "no_motion_s": 2400, "app_on": 1, "app_on_s": 2400, "hr_mean": 0, "hr_std": 0, "spo2_mean": 0, "spo2_std": 0, "tachy": 0, "brady": 0, "spo2_low": 0, "vitals_valid": 0, "a_global": 0.72, "anomaly_label": "CRITICAL:PROLONGED_INACTIVITY" },
+    { "ts": "2024-01-15T14:30:00Z", "hour": 14, "pir_ratio": 0.05, "no_motion_s": 3000, "app_on": 1, "app_on_s": 3000, "hr_mean": 0, "hr_std": 0, "spo2_mean": 0, "spo2_std": 0, "tachy": 0, "brady": 0, "spo2_low": 0, "vitals_valid": 0, "a_global": 0.85, "anomaly_label": "CRITICAL:PROLONGED_INACTIVITY" },
+    { "ts": "2024-01-15T15:30:00Z", "hour": 15, "pir_ratio": 0.45, "no_motion_s": 55, "app_on": 1, "app_on_s": 140, "hr_mean": 78.0, "hr_std": 4.0, "spo2_mean": 97.8, "spo2_std": 0.3, "tachy": 0, "brady": 0, "spo2_low": 0, "vitals_valid": 1, "a_global": 0.25, "anomaly_label": "NORMAL" },
+    { "ts": "2024-01-15T16:00:00Z", "hour": 16, "pir_ratio": 0.40, "no_motion_s": 70, "app_on": 0, "app_on_s": 0, "hr_mean": 75.2, "hr_std": 3.5, "spo2_mean": 98.0, "spo2_std": 0.3, "tachy": 0, "brady": 0, "spo2_low": 0, "vitals_valid": 1, "a_global": 0.22, "anomaly_label": "NORMAL" },
+    { "ts": "2024-01-15T17:00:00Z", "hour": 17, "pir_ratio": 0.38, "no_motion_s": 80, "app_on": 0, "app_on_s": 0, "hr_mean": 73.8, "hr_std": 3.2, "spo2_mean": 97.6, "spo2_std": 0.4, "tachy": 0, "brady": 0, "spo2_low": 0, "vitals_valid": 1, "a_global": 0.21, "anomaly_label": "NORMAL" },
+    { "ts": "2024-01-15T18:00:00Z", "hour": 18, "pir_ratio": 0.42, "no_motion_s": 65, "app_on": 1, "app_on_s": 200, "hr_mean": 74.5, "hr_std": 3.8, "spo2_mean": 98.1, "spo2_std": 0.3, "tachy": 0, "brady": 0, "spo2_low": 0, "vitals_valid": 1, "a_global": 0.24, "anomaly_label": "NORMAL" },
+    { "ts": "2024-01-15T19:00:00Z", "hour": 19, "pir_ratio": 0.35, "no_motion_s": 90, "app_on": 1, "app_on_s": 180, "hr_mean": 72.3, "hr_std": 3.0, "spo2_mean": 97.9, "spo2_std": 0.4, "tachy": 0, "brady": 0, "spo2_low": 0, "vitals_valid": 1, "a_global": 0.23, "anomaly_label": "NORMAL" },
+    { "ts": "2024-01-15T20:00:00Z", "hour": 20, "pir_ratio": 0.25, "no_motion_s": 120, "app_on": 1, "app_on_s": 150, "hr_mean": 70.5, "hr_std": 2.8, "spo2_mean": 97.5, "spo2_std": 0.3, "tachy": 0, "brady": 0, "spo2_low": 0, "vitals_valid": 1, "a_global": 0.20, "anomaly_label": "NORMAL" },
+    { "ts": "2024-01-15T21:00:00Z", "hour": 21, "pir_ratio": 0.15, "no_motion_s": 160, "app_on": 0, "app_on_s": 0, "hr_mean": 65.2, "hr_std": 2.2, "spo2_mean": 97.2, "spo2_std": 0.3, "tachy": 0, "brady": 0, "spo2_low": 0, "vitals_valid": 1, "a_global": 0.18, "anomaly_label": "NORMAL" },
+    { "ts": "2024-01-15T22:00:00Z", "hour": 22, "pir_ratio": 0.08, "no_motion_s": 220, "app_on": 0, "app_on_s": 0, "hr_mean": 62.1, "hr_std": 1.9, "spo2_mean": 96.9, "spo2_std": 0.3, "tachy": 0, "brady": 0, "spo2_low": 0, "vitals_valid": 1, "a_global": 0.16, "anomaly_label": "NORMAL" },
+    { "ts": "2024-01-16T01:00:00Z", "hour": 1, "pir_ratio": 0.35, "no_motion_s": 60, "app_on": 0, "app_on_s": 0, "hr_mean": 75.0, "hr_std": 5.0, "spo2_mean": 95.5, "spo2_std": 0.8, "tachy": 0, "brady": 0, "spo2_low": 0, "vitals_valid": 1, "a_global": 0.62, "anomaly_label": "WARNING:NIGHT_WANDERING" },
+    { "ts": "2024-01-16T01:15:00Z", "hour": 1, "pir_ratio": 0.40, "no_motion_s": 45, "app_on": 0, "app_on_s": 0, "hr_mean": 78.5, "hr_std": 5.8, "spo2_mean": 95.2, "spo2_std": 1.0, "tachy": 0, "brady": 0, "spo2_low": 0, "vitals_valid": 1, "a_global": 0.67, "anomaly_label": "WARNING:NIGHT_WANDERING" },
+    { "ts": "2024-01-16T02:00:00Z", "hour": 2, "pir_ratio": 0.0, "no_motion_s": 300, "app_on": 0, "app_on_s": 0, "hr_mean": 57.0, "hr_std": 1.8, "spo2_mean": 96.8, "spo2_std": 0.3, "tachy": 0, "brady": 0, "spo2_low": 0, "vitals_valid": 1, "a_global": 0.13, "anomaly_label": "NORMAL" }
+  ],
+  "thresholds": {
+    "warning": 0.65,
+    "critical": 0.80
+  }
+}
